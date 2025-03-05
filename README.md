@@ -18,6 +18,7 @@ Sota Stack offers professional web development, custom software development, clo
 
 ## 🛠️ Tech Stack
 
+- **Runtime**: [Bun.js](https://bun.sh/) - Fast JavaScript runtime & package manager
 - **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **UI Components**: [shadcn/ui](https://ui.shadcn.com/) 
@@ -30,8 +31,7 @@ Sota Stack offers professional web development, custom software development, clo
 
 ### Prerequisites
 
-- Node.js 18.17.0 or later
-- npm or yarn or pnpm
+- [Bun](https://bun.sh/) v1.0.0 or later
 
 ### Installation
 
@@ -47,20 +47,12 @@ Sota Stack offers professional web development, custom software development, clo
 
 3. Install dependencies
    ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
+   bun install
    ```
 
 4. Start the development server
    ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
+   bun run dev
    ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
@@ -100,21 +92,26 @@ This project uses ESLint and Prettier for code formatting:
 
 ```bash
 # Run ESLint
-npm run lint
+bun run lint
 
 # Format code with Prettier
-npm run format
+bun run format
 ```
 
 ### Building for Production
 
 ```bash
-npm run build
-# or
-yarn build
-# or
-pnpm build
+bun run build
 ```
+
+### Performance Advantages with Bun
+
+This project leverages Bun.js for enhanced development experience:
+
+- **Faster Installation**: Bun installs dependencies up to 30x faster than npm
+- **Quick Startup**: Development server starts in milliseconds
+- **Built-in Bundler**: Optimized bundling without additional tools
+- **TypeScript Support**: Native TypeScript support without additional compilation steps
 
 ## 📝 License
 
