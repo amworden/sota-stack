@@ -38,11 +38,6 @@ export default function Footer() {
                   Terms of Service
                 </Link>
               </li>
-              <li>
-                <Link href="/careers" className="text-muted-foreground hover:text-primary transition-colors">
-                  Careers
-                </Link>
-              </li>
             </ul>
           </div>
           
